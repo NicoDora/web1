@@ -4,56 +4,35 @@
 <head>
     <title>WEB1 - JavaScript 공부</title>
     <meta charset="utf-8">
-    <style>
-        body {
-            font-family: "Arial", sans-serif;
-        }
-
-        h1 {
-            font-size: 45px;
-            text-align: center;
-        }
-
-        img {
-            display: block;
-            margin: 0 auto;
-        }
-
-        @media (max-width: 600px) {
-            h1 {
-                font-size: 30px;
-            }
-
-            img {
-                width: 90%;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
     <h1><a href="index.html" title="WEB 설명">WEB</a></h1>
-    <ol>
-        <li><a href="html.html" title="HTML 설명">HTML</a></li>
-        <li><a href="css.html" title="CSS 설명">CSS</a></li>
-        <li><a href="javascript.html" title="JavaScript 설명">JavaScript</a>
-    </ol>
+    <div id="grid">
+        <ol>
+            <li><a href="html.html" title="HTML 설명">HTML</a></li>
+            <li><a href="css.html" title="CSS 설명">CSS</a></li>
+            <li><a href="javascript.html" title="JavaScript 설명">JavaScript</a>
+        </ol>
+        <div id="article">
+            <h2>JavaScript</h2>
 
-    <h2>JavaScript</h2>
-
-    <p>
-        This is JavaScript!
-    </p>
-    <img src="JavaScriptimg.jpg" width="895">
-    <p style="margin-top: 45px;">
-        JavaScript, often abbreviated as JS, is a programming language
-        that is one of the core technologies of the World Wide Web,
-        alongside HTML and CSS. As of 2022, 98% of websites use JavaScript
-        on the client side for webpage behavior, often incorporating third-party libraries.
-        All major web browsers have a dedicated JavaScript engine
-        to execute the code on users' devices.
-    </p>
+            <p>
+                This is JavaScript!
+            </p>
+            <img src="JavaScriptimg.jpg" width="895">
+            <p style="margin-top: 45px;"> JavaScript, often abbreviated as JS, is a programming language that is one of
+                the core
+                technologies of the World Wide Web, alongside HTML and CSS. As of 2022, 98% of websites use JavaScript
+                on the
+                client side for webpage behavior, often incorporating third-party libraries. All major web browsers have
+                a
+                dedicated JavaScript engine to execute the code on users' devices.
+            </p>
+        </div>
+    </div>
 </body>
 
 </html>
